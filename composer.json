@@ -1,0 +1,17 @@
+{
+    "name": "eduardo_garcia/app-salon_php_mvc_js_sass",
+    "description": "proyecto con php, este proyecto es una pagina web de una estetica de coretes de cabello",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
